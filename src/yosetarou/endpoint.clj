@@ -5,7 +5,8 @@
             [yosetarou.routes :as routes]
             [yosetarou.handler.home :as h.home]
             [yosetarou.handler.board :as h.board]
-            [yosetarou.handler.message :as h.message]))
+            [yosetarou.handler.message :as h.message]
+            [yosetarou.handler.api.status :as h.a.status]))
 
 (defn not-found-handler [req]
   (ring.res/not-found "Not found"))
@@ -32,3 +33,4 @@
 (defmethod router :message/index [_] h.message/index)
 (defmethod router :message/create [req] h.message/create)
 (defmethod router :message/edit [req] h.message/edit)
+(defmethod router :api.status/index [req] h.a.status/index)
