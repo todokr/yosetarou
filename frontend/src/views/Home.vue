@@ -1,7 +1,7 @@
 <template>
 <div class="home">
   <div class="masthead">
-    <h1 class="read">結婚祝い・お誕生日祝い・送別に。<br>yosetarouなら素敵な「寄せ書き」がすぐに簡単にプレゼントできます。</h1>
+  <h1 class="read">結婚祝い・お誕生日祝い・送別に。<br>yosetarouなら <b>素敵な「寄せ書き」</b>が<b>すぐ</b>に<b>簡単</b>にプレゼントできます。</h1>
 
     <ul id="slider">
       <li><img alt="寄せ書き例" src="http://placekitten.com/g/200/200"/></li>
@@ -35,35 +35,41 @@ export default {
 </script>
 
 <style lang="scss">
-
-  .container {
+.container {
   width: 980px;
   margin: 0 auto;
-  }
+}
+
 .masthead {
   padding: 60px 0;
+  text-align: center;
 
   .read {
     font-weight: normal;
     font-size: 32px;
-}
+    line-height: 1.6;
 
-#slider {
-margin-top: 60px;
-li {
-display: inline-block;
-margin: 0 10px;
-}
-}
+    b {
+      font-size: 120%;
+    }
   }
 
-  .menu {
+  #slider {
+    margin-top: 60px;
+    li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+  }
+}
+
+.menu {
   li {
-  display: inline-block;
+    display: inline-block;
+    a {
+      padding: 20px;
+    }
+  }
+}
 
-  a {
-  padding: 20px;
-  }
-  }
-  }
 </style>
