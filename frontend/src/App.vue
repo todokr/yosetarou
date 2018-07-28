@@ -58,8 +58,10 @@
 </template>
 
 <style lang="scss">
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   background: url('./assets/bg.png') left top repeat;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -118,8 +120,6 @@ body a {
 
     &.logo {
       width: 60px;
-      border-right: 1px #ddd solid;
-      border-left: 1px #ddd solid;
       img {
         height: 40px;
         vertical-align: middle;
