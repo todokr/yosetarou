@@ -8,6 +8,7 @@
                  [org.immutant/web "2.1.10"]
                  [bidi "2.1.3"]
                  [hiccup "2.0.0-alpha1"]
+                 [enlive "1.1.6"]
                  [funcool/struct "1.2.0"]
                  [org.clojure/java.jdbc "0.7.5"]
                  [org.postgresql/postgresql "42.2.2"]

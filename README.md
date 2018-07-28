@@ -2,6 +2,11 @@
 
 FIXME: description
 
+- 色紙作成
+- 寄せ書き追加
+- 色紙画像生成
+- 寄せ書き修正
+
 ## Installation
 
 Download from http://example.com/FIXME.
