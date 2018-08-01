@@ -64,10 +64,30 @@ export default {
 }
 
 .menu {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+
   li {
-    display: inline-block;
+    display: table-cell;
+
+    & + li {
+      padding-left: 40px;
+    }
+
     a {
+      color: #000;
+      font-size: 18px;
+      display: block;
+      background: #fda;
+      text-align: center;
       padding: 20px;
+      border-radius: 4px;
+      transition-duration: 0.4s;
+
+      &:hover {
+        background: darken(#fda, 10%)
+      }
     }
   }
 }

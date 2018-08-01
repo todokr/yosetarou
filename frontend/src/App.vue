@@ -142,6 +142,7 @@ body a {
 }
 
 .payment {
+  margin-top: 40px;
   padding: 40px 0;
   background: #fff;
 
