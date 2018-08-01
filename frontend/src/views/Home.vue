@@ -35,10 +35,6 @@ export default {
 </script>
 
 <style lang="scss">
-.container {
-  width: 980px;
-  margin: 0 auto;
-}
 
 .masthead {
   padding: 60px 0;

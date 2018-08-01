@@ -57,9 +57,17 @@
 </div>
 </template>
 
-<style lang="scss">
+<style>
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+</style>
+
+<style lang="scss" scoped>
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
 #app {
   font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   background: url('./assets/bg.png') left top repeat;
