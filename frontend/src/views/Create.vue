@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .create {
-    margin-top: 40px;
-  }
+.create {
+  margin-top: 40px;
+}
 </style>
