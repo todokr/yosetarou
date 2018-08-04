@@ -11,9 +11,7 @@ import Step from '@/components/Step.vue'
 
 export default {
   name: 'Create',
-  components: {
-    Step
-  },
+  components: { Step },
 }
 </script>
 
